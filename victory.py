@@ -15,10 +15,11 @@
 - В программе с помощью комментариев написать подсказки - правильные ответы для каждой знаменитости
 """
 start_game = 'нет'
+correct_answer = 0
+wrong_answer = 0
 answer_player = ''
 while answer_player != start_game:
-        correct_answer = 0
-        wrong_answer = 0
+
 
         lomanosov_birthday = 1711
         answer_lomanosov_birthday = int(input('Год рождения М.В. Ломоносова ?'))
