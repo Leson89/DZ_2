@@ -19,14 +19,13 @@ correct_answer = 0
 wrong_answer = 0
 answer_player = ''
 while answer_player != start_game:
-
-
         lomanosov_birthday = 1711
         answer_lomanosov_birthday = int(input('Год рождения М.В. Ломоносова ?'))
             # Правильный ответ 1711
         if answer_lomanosov_birthday == lomanosov_birthday:
             correct_answer += 1
-        elif answer_lomanosov_birthday != lomanosov_birthday:
+        else:
+            answer_lomanosov_birthday != lomanosov_birthday
             wrong_answer += 1
             # Правильный ответ 1934
         gagarin_birthday = 1934
@@ -34,7 +33,8 @@ while answer_player != start_game:
 
         if answer_gagarin_birthday == gagarin_birthday:
             correct_answer += 1
-        elif answer_gagarin_birthday != gagarin_birthday:
+        else:
+            answer_gagarin_birthday != gagarin_birthday
             wrong_answer += 1
             # Правильный ответ 1685
         bah_birthday = 1685
@@ -42,28 +42,35 @@ while answer_player != start_game:
 
         if answer_bah_birthday == bah_birthday:
             correct_answer += 1
-        elif answer_bah_birthday != bah_birthday:
+        else:
+            answer_bah_birthday != bah_birthday
             wrong_answer += 1
+
             # Правильный ответ 1770
         bethoven_birthday = 1770
         answer_bethoven_birthday = int(input('Год рождения Л. ван Бетховена ?'))
         if answer_bethoven_birthday == bethoven_birthday:
             correct_answer += 1
-        elif answer_bethoven_birthday != bethoven_birthday:
+        else:
+            answer_bethoven_birthday != bethoven_birthday
             wrong_answer += 1
+
             # Правильный ответ 1814
         lermontov_birthday = 1814
         answer_lermontov_birthday = int(input('Год рождения М.Ю. Лермонтова ?'))
         if answer_lermontov_birthday == lermontov_birthday:
             correct_answer += 1
-        elif answer_lermontov_birthday != lermontov_birthday:
+        else:
+            answer_lermontov_birthday != lermontov_birthday
             wrong_answer += 1
+
             # Правильный ответ 1840
         chaikovski_birthday = 1840
         answer_chaikovski_birthday = int(input('Год рождения П.И. Чайковского ?'))
         if answer_chaikovski_birthday == chaikovski_birthday:
             correct_answer += 1
-        elif answer_chaikovski_birthday != chaikovski_birthday:
+        else:
+            answer_chaikovski_birthday != chaikovski_birthday
             wrong_answer += 1
 
         print('Процент правильных ответов:', correct_answer * 100 / 6, '%')
